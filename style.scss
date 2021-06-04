@@ -20,6 +20,38 @@
 
 @media (max-width: 1200px){
     .homepage__information{
+        .homepage__information-introduction{
+    
+            .introduction__text{
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                h2{
+                    font-size: 24px !important;
+                }
+                p{
+                    font-size: 14px !important;
+                }
+                a{
+                    background-color: #3DA4FF;
+                    color: #fff;
+                    font-size: 14px !important;
+                    font-weight: 700;
+                    width: 50%;
+                }
+            }
+            .information__image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .homepage__information{
         .homepage__information-navbar {
             .navbar__text {
                 .nav-link{
@@ -175,7 +207,7 @@
                 justify-content: center;
                 align-items: center;
                 svg{
-                    // width: 50%;
+                    width: 70%;
                 }
             }
         }

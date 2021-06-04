@@ -16,6 +16,46 @@
 }
 
 @media (max-width: 1200px) {
+  .homepage__information .homepage__information-introduction .introduction__text {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .homepage__information .homepage__information-introduction .introduction__text h2 {
+    font-size: 24px !important;
+  }
+  .homepage__information .homepage__information-introduction .introduction__text p {
+    font-size: 14px !important;
+  }
+  .homepage__information .homepage__information-introduction .introduction__text a {
+    background-color: #3DA4FF;
+    color: #fff;
+    font-size: 14px !important;
+    font-weight: 700;
+    width: 50%;
+  }
+  .homepage__information .homepage__information-introduction .information__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .homepage__information .homepage__information-introduction .information__image svg {
+    width: 70%;
+  }
   .homepage__information .homepage__information-navbar .navbar__text .nav-link {
     margin: 0px 20px 0px 0px !important;
   }
@@ -155,6 +195,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .homepage__information .homepage__information-introduction .information__image svg {
+    width: 70%;
   }
   .homepage__review {
     margin-bottom: 160px;
